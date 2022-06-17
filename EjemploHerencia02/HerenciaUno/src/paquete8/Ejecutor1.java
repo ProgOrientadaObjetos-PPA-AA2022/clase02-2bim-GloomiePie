@@ -22,5 +22,9 @@ public class Ejecutor1 {
         estDistancia.calcularMatriculaDistancia();
         
         System.out.println(estDistancia);
+        
+        EstudiantePresencial estudiante = new EstudiantePresencial(nombre ,apellido, identificacion, edad);
+        
+        System.out.println(estudiante);
     }
 }
